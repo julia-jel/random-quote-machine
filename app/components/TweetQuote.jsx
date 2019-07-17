@@ -1,4 +1,4 @@
-const React = require('react');
+import React from 'react';
 import '../styles.css';
 
 /* renders an icon to tweet the chosen quote */
