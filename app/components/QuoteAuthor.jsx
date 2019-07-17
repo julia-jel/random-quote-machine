@@ -1,4 +1,4 @@
-const React = require('react');
+import React from 'react';
 
 /* Rendering a quote's author passed as props */
 
