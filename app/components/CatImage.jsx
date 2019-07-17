@@ -1,4 +1,4 @@
-const React = require('react');
+import React from 'react';
 
 /* Render a cat's image passed as props */
 
