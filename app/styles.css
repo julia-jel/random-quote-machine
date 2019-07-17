@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+
+#quote-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+#smaller-box {
+  background-color: #A9A9A9;
+  width: 400px;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#text {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+#author {
+  font-size: 16px;
+  font-family: sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: right; 
+}
+
+.fa-quote-left {
+  padding: 5px;
+}
+
+#buttons {
+  padding-right: 30px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+#new-quote:focus {
+  box-shadow: none !important;
+}
+
+.fa-twitter {
+  font-size: 40px !important;
+}
+
+#image {
+  width: 350px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#footer {
+  font-size: 14px;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+  line-height: 2px;
+  padding: 10px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #dcdcdc;
+}
+
+#footer a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
