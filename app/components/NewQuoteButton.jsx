@@ -1,4 +1,4 @@
-const React = require('react');
+import React from 'react';
 
 /* Creating a button for changing a quote, an image and a background color */
 
